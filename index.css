@@ -8,13 +8,15 @@ box-sizing: border-box;
 
 body {
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    width: 1200px;
+    line-height: 1.5em;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
     background-color: 	hsl(357, 86%, 52%);
     padding: 24px 24px;
@@ -34,7 +36,7 @@ header ul{
     display: flex;
 }
 
-header h2{
+header p{
     margin-right: 16px;
 }
 
@@ -54,4 +56,29 @@ header li:nth-of-type(2)::before{
 
 header a:hover{
     color: black;
+}
+
+main {
+    margin-top: 24px;
+    padding: 24px 24px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 12px;
+
+}
+
+.summary {
+    display: flex;
+}
+
+.summary div {
+    margin-left: 36px;
+}
+
+.summary p, .summary q, .summary blockquote {
+    margin-bottom: 24px;
+    display: block;
 }

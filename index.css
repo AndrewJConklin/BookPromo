@@ -24,14 +24,15 @@ header{
     padding: 24px 24px;
 }
 
-header::before{
-    content: url(assets/Eye.jpg);
+/* header::before{
+    background-image: url(assets/eye2.png);
     position: fixed;
     bottom: 550px;
     right: auto;
     z-index: -1;
-    ;
-}
+    width: 100px;
+    height: 100px;
+} */
 
 h1{
     font-size: 36px;

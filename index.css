@@ -93,8 +93,22 @@ h2 {
 }
 
 .summary p, .summary q, .summary blockquote {
-    margin-bottom: 36px;
+    margin-bottom: 42px;
     display: block;
+}
+
+.summary q:nth-of-type(1) {
+    transform: rotate(2deg);
+    text-align: end;
+}
+
+.summary q:nth-of-type(2) {
+    transform: rotate(-2deg);
+    padding-top: 10px;
+}
+
+.summary blockquote {
+    transform: rotate(-2deg);
 }
 
 article img{

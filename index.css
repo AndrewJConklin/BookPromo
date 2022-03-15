@@ -58,7 +58,7 @@ header a{
     text-decoration: none;
 }
 
-header li:nth-of-type(2)::before{
+header li + li::before{
     content: " | ";
     margin-right: 8px;
 }
@@ -70,6 +70,11 @@ header a:hover{
 main {
     margin-top: 24px;
     padding: 24px 24px;
+}
+
+p span{
+    font-style: italic;
+    font-weight: 500;
 }
 
 h2 {
@@ -88,7 +93,7 @@ h2 {
 }
 
 .summary p, .summary q, .summary blockquote {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     display: block;
 }
 

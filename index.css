@@ -14,25 +14,30 @@ body {
     line-height: 1.5em;
 }
 
+hr{
+    border-top: 8px solid grey;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     width: 100%;
-    background-color: 	hsl(357, 86%, 52%);
+    background-color:hsl(357, 86%, 52%);
     padding: 24px 24px;
 }
 
-/* header::before{
-    background-image: url(assets/eye2.png);
+header::before{
+    content: url(assets/eye3.png);
     position: fixed;
-    bottom: 550px;
+    opacity: .25;
+    bottom: 750px;
     right: auto;
     z-index: -1;
     width: 100px;
     height: 100px;
-} */
+}
 
 h1{
     font-size: 36px;
@@ -161,6 +166,7 @@ article p{
 footer{
     display: block;
     background-color: grey;
+    color: white;
     padding: 32px;
     text-align: center;
 }

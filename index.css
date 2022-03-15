@@ -121,7 +121,15 @@ hr{
     color: hsl(0, 0%, 93%);
 }
 
-article img{
+article img {
+    width: 50%;
+}
+
+article > div {
+    display: flex;
+}
+
+.bio img {
     width: 100%;
 }
 
@@ -139,19 +147,15 @@ h3{
     padding: 16px;
 }
 
-article {
+.bio {
     position: relative;
 }
 
 article p{
-    background-color: hsl(357, 86%, 52%);
-    width: 400px;
     position: absolute;
-    right: 0px;
-    top: 40px;
-    padding: 8px;
-    border: solid 4px;
-    box-shadow: 0 0 1em hsl(0 0% 93%);
+    right: 66px;
+    top: 60px;
+    width: 75%
 }
 
 footer{
@@ -159,6 +163,4 @@ footer{
     background-color: grey;
     padding: 32px;
     text-align: center;
-
-
 }

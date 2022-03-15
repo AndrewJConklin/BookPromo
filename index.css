@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 100%;
     width: 1200px;
+    margin:auto;
     line-height: 1.5em;
 }
 
@@ -17,9 +18,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     width: 100%;
     background-color: 	hsl(357, 86%, 52%);
     padding: 24px 24px;
+}
+
+header::before{
+    content: url(assets/Eye.jpg);
+    position: absolute;
+    bottom: 200px;
+    z-index: -1;
 }
 
 h1{
@@ -81,4 +90,35 @@ h2 {
 .summary p, .summary q, .summary blockquote {
     margin-bottom: 24px;
     display: block;
+}
+
+article img{
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+    margin: 16px;
+
+}
+.review{
+    display: flex;
+    margin: 16px;
+}
+
+.review blockquote{
+    padding: 16px;
+}
+
+article {
+    position: relative;
+}
+
+article p{
+    background-color: hsl(357, 86%, 52%);
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    padding: 8px;
 }
